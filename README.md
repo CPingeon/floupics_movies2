@@ -8,6 +8,7 @@
  4. Pour une meilleure organisation du code Python, utilisé pour creer les tables et insert les données, deux modules ont realisé:
  
      ***I.postgreSQL_functions.py qui contient les fonctions suivant:***
+     
         1. ouvrir_connection: une fonction permet de connecter a une base de donnee cree avec PostgreSQL13
         2. creer_table: une fonction permet de creer des tables dans une base de donnee PostgreSQL
         3. inserer_donnees: une fonction permet d'inserer des donnes dans une base de donnée PostgreSQL
