@@ -37,8 +37,8 @@ Pour la réalisation de notre étude nous utiliserons les programmes suivants :
 ## Liens de téléchargement des différents logiciels
 
 * [Git](https://gitforwindows.org/) - Logiciel de commandes GitBash
-* [SqliteBrowser](https://sqlitebrowser.org/dl/) - Logiciel pour exploiter les bases de données requêtes SQLite
-* [WorkbBench](https://dev.mysql.com/downloads/workbench/) - Logiciel de création de schéma relationnel SQL
+* [PostgreSql](https://www.postgresql.org/download/) - Base de données relationnelle et objet (SGBDO) libre
+* [GuideInstallationPG](https://www.veremes.com/installation-postgresql-windows) - Ce lien sera utile pour installer 
 
 
 ## Auteurs
