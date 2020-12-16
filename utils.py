@@ -28,7 +28,11 @@ def renvoyer_annee_titre_film(title):
     renvoie:
         (1995, 'Toy Story')
     """
-    return None, title
+    new_title = title.strip()
+    year = int(new_title[-5:-1])
+    new_title = new_title[:-6].strip()
+
+    return year, new_title
 
 def renvoyer_datetime_iso(timestamp):
     """ 

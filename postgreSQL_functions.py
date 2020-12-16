@@ -75,3 +75,18 @@ def lire_donnees(conn, sql_requete):
     
     return data
 
+
+
+def creer_colonne(conn, sql_creation_colonne):
+    try:
+        cursor = conn.cursor()
+        cursor.execute(sql_creation_table)
+        conn.commit()
+    except psycopg2.Error as e:
+        print("Erreur lors de la création de la colonne")
+        print(e)
+        return
+    cursor.close()
+    print("La colonne a été crée avec succès")
+    
+    
